@@ -7,6 +7,10 @@ const connectDB = require('./config/db');
 //Connect Database
 connectDB();
 
+//Init Middleware
+
+app.use(express.json({ extended: false }));
+
 // Routes
 app.use('/api/users', require('./routes/users'))
 app.use('/api/contacts', require('./routes/contacts'))
