@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://Tochi:Tochi5050@cluster0.huxuw.mongodb.net/Contactskeeper?retryWrites=true&w=majority",
+    "jwtSecret" : "secret"
+}
