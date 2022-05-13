@@ -33,6 +33,7 @@ function ContactItems({contact}) {
             <i class="bi bi-telephone-fill"></i>{phone}
             </li>)}
             </ul>
+            
             <button className="btn btn-dark btn-sm" onClick={onEdit}>Edit</button>
             <button className="btn btn-danger btn-sm" onClick={onDelete}>Delete</button>
         </div>

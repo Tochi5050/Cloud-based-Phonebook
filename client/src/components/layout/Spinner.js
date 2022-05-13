@@ -1,6 +1,7 @@
 import React from 'react';
 import spinner from './spiner.jpg';
 
+
 const Spinner = () => (
   <img
     src={spinner}
